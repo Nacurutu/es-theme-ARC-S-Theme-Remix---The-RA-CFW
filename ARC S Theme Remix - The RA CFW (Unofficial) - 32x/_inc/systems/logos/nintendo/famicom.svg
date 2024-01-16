@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: Adobe Illustrator 26.0.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
+<svg
+   version="1.1"
+   id="Layer_1"
+   x="0px"
+   y="0px"
+   viewBox="0 0 264.04401 27.025459"
+   xml:space="preserve"
+   sodipodi:docname="famicom.svg"
+   width="264.04401"
+   height="27.025459"
+   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+   id="defs41" /><sodipodi:namedview
+   id="namedview39"
+   pagecolor="#ffffff"
+   bordercolor="#666666"
+   borderopacity="1.0"
+   inkscape:pageshadow="2"
+   inkscape:pageopacity="0.0"
+   inkscape:pagecheckerboard="0"
+   showgrid="false"
+   inkscape:zoom="0.55104167"
+   inkscape:cx="959.09263"
+   inkscape:cy="540.79395"
+   inkscape:window-width="2560"
+   inkscape:window-height="1387"
+   inkscape:window-x="-8"
+   inkscape:window-y="-8"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="Layer_1" />
+<style
+   type="text/css"
+   id="style2">
+	.st0{fill:#E9E1D0;}
+</style>
+<g
+   transform="scale(0.44,0.438725)"
+   id="g36"
+   style="fill:#e9e1d0;fill-opacity:1">
+	<polygon
+   class="st0"
+   points="31.9,11.1 11.2,11.1 11.2,24.6 31.9,24.6 31.9,36 11.2,36 11.2,60 0,60 0,0 31.9,0 "
+   id="polygon4"
+   style="fill:#e9e1d0;fill-opacity:1" />
+	<path
+   class="st0"
+   d="M 68.1,60 H 57.2 v -9.3 h -21 L 30,60 H 17.2 L 59.2,0 H 68 V 60 Z M 57.2,39.3 V 21.8 L 44.4,39.3 Z"
+   id="path6"
+   style="fill:#e9e1d0;fill-opacity:1" />
+	<polygon
+   class="st0"
+   points="102.7,40.3 120.5,0 133.3,0 133.3,60 122.1,60 122.1,29.7 108.2,60 96.9,60 83.5,29.7 83.5,60 72.3,60 72.3,0 84.9,0 "
+   id="polygon8"
+   style="fill:#e9e1d0;fill-opacity:1" />
+	<polygon
+   class="st0"
+   points="372.5,40.3 390.4,0 403.1,0 403.1,60 391.9,60 391.9,29.7 378,60 366.7,60 353.4,29.7 353.4,60 342.1,60 342.1,0 354.7,0 "
+   id="polygon10"
+   style="fill:#e9e1d0;fill-opacity:1" />
+	<rect
+   x="136.8"
+   y="0"
+   class="st0"
+   width="11.6"
+   height="60"
+   id="rect12"
+   style="fill:#e9e1d0;fill-opacity:1" />
+	<polygon
+   class="st0"
+   points="163.2,49 178.3,49 178.3,60 151.6,60 151.6,0 163.2,0 "
+   id="polygon14"
+   style="fill:#e9e1d0;fill-opacity:1" />
+	<polygon
+   class="st0"
+   points="190.5,24.6 202.3,0 215.1,0 195.9,38.1 195.9,60 184.6,60 184.6,38.1 165.4,0 178.3,0 "
+   id="polygon16"
+   style="fill:#e9e1d0;fill-opacity:1" />
+	<path
+   class="st0"
+   d="M 278.2,44.5"
+   id="path18"
+   style="fill:#e9e1d0;fill-opacity:1" />
+	<path
+   class="st0"
+   d="M 278.1,16.5 C 273,6.8 262.8,0.2 251.1,0.2 c -16.8,0 -30.4,13.6 -30.4,30.5 0,16.8 13.6,30.5 30.4,30.5 11.8,0 22,-6.7 27.1,-16.5 l -13.8,0.1 c -3.4,3.1 -7.9,5.1 -12.9,5.1 -10.5,0 -19.1,-8.5 -19.1,-19.1 0,-10.6 8.5,-19.1 19.1,-19.1 4.9,0 9.4,1.9 12.8,4.9 z"
+   id="path20"
+   style="fill:#e9e1d0;fill-opacity:1" />
+	<path
+   class="st0"
+   d="m 308.2,61.3 c -16.9,0 -30.6,-13.7 -30.6,-30.6 0,-16.9 13.7,-30.6 30.6,-30.6 16.9,0 30.6,13.7 30.6,30.6 0,16.9 -13.7,30.6 -30.6,30.6 z M 327.7,30.7 C 327.7,20 319,11.3 308.3,11.3 297.6,11.3 289,20 289,30.7 c 0,10.7 8.7,19.4 19.4,19.4 10.7,0 19.3,-8.7 19.3,-19.4 z"
+   id="path22"
+   style="fill:#e9e1d0;fill-opacity:1" />
+	<path
+   class="st0"
+   d="m 427,0 c 10.1,0.8 18.1,9.3 18.1,19.7 0,10.4 -8,18.9 -18.1,19.7 h -8.8 V 60 H 407 V 0 h 11.2 z m -8.8,11.5 v 16.3 h 8.8 c 3.8,-0.7 6.7,-4.1 6.7,-8.1 0,-4 -2.9,-7.4 -6.7,-8.1 z"
+   id="path24"
+   style="fill:#e9e1d0;fill-opacity:1" />
+	<path
+   class="st0"
+   d="M 568.6,60.7 H 557.5 V 0.5 h 15.5 8.8 c 10.1,0.8 18.1,9.3 18.1,19.7 0,8.5 -5.3,15.7 -12.8,18.5 l 13,22.1 H 587.9 L 569.7,29.7 h -1 v 31 z m 13.1,-32.4 c 3.8,-0.7 6.7,-4.1 6.7,-8.1 0,-4 -2.9,-7.4 -6.7,-8.1 h -13.1 v 16.3 z"
+   id="path26"
+   style="fill:#e9e1d0;fill-opacity:1" />
+	<path
+   class="st0"
+   d="m 459.7,34.7 v 8.8 c 0.7,3.8 4.1,6.7 8.1,6.7 4,0 7.4,-2.9 8.1,-6.7 V 34.7 0.6 h 11.5 v 34.1 8.8 c -0.8,10.1 -9.3,18.1 -19.7,18.1 -10.4,0 -18.8,-8 -19.7,-18.1 V 34.7 0.6 h 11.6 z"
+   id="path28"
+   style="fill:#e9e1d0;fill-opacity:1" />
+	<polygon
+   class="st0"
+   points="510.4,11.9 520.6,11.9 520.6,0.5 489.2,0.5 489.2,11.9 499,11.9 499,60.7 510.4,60.7 "
+   id="polygon30"
+   style="fill:#e9e1d0;fill-opacity:1" />
+	<polygon
+   class="st0"
+   points="523.3,0.5 554.6,0.5 554.6,11.5 534.5,11.5 534.5,25.8 554.6,25.8 554.6,37.1 534.5,37.1 534.5,49.6 554.6,49.6 554.6,60.7 523.3,60.7 "
+   id="polygon32"
+   style="fill:#e9e1d0;fill-opacity:1" />
+	<path
+   class="st0"
+   d="M 568.6,29.7"
+   id="path34"
+   style="fill:#e9e1d0;fill-opacity:1" />
+</g>
+</svg>
