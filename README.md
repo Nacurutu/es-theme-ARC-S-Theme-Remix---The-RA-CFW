@@ -26,10 +26,10 @@ Detailed only has one image for the roms (image name=“md_image”), I recommen
 
 Recommended options:
 
-- Gamelist view in Auto 
-- Transition style in instant 
-- Show clock in ON 
-- Battery Status in ON
+- Gamelist view: Auto 
+- Transition style: Instant 
+- Show clock: ON 
+- Battery Status: ON
 
 I hope you like it
 
