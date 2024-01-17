@@ -6,9 +6,9 @@
 ![rainbow-rainbow-bar](https://user-images.githubusercontent.com/18109442/210574757-262e24d2-3ab7-4fa5-bf64-935187bb5c6f.gif)
 
 <p align="center">
-	<a href="https://github.com/Nacurutu/Dark-Themes-SD-WebUI-Automatic1111/stargazers"><img src="https://img.shields.io/github/stars/Nacurutu/ARC-S-Theme-Remix---The-RA-CFW?colorA=363a4f&colorB=b7bdf8&style=for-the-badge"></a>
-	<a href="https://github.com/Nacurutu/Dark-Themes-SD-WebUI-Automatic1111/issues"><img src="https://img.shields.io/github/issues/Nacurutu/ARC-S-Theme-Remix---The-RA-CFW?colorA=363a4f&colorB=f5a97f&style=for-the-badge"></a>
-	<a href="https://github.com/Nacurutu/Dark-Themes-SD-WebUI-Automatic1111/contributors"><img src="https://img.shields.io/github/contributors/Nacurutu/ARC-S-Theme-Remix---The-RA-CFW?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
+	<a href="https://github.com/Nacurutu/Dark-Themes-SD-WebUI-Automatic1111/stargazers"><img src="https://img.shields.io/github/stars/Nacurutu/ES-theme-ARC-S-Theme-Remix---The-RA-CFW?colorA=363a4f&colorB=b7bdf8&style=for-the-badge"></a>
+	<a href="https://github.com/Nacurutu/Dark-Themes-SD-WebUI-Automatic1111/issues"><img src="https://img.shields.io/github/issues/Nacurutu/ES-theme-ARC-S-Theme-Remix---The-RA-CFW?colorA=363a4f&colorB=f5a97f&style=for-the-badge"></a>
+	<a href="https://github.com/Nacurutu/Dark-Themes-SD-WebUI-Automatic1111/contributors"><img src="https://img.shields.io/github/contributors/Nacurutu/ES-theme-ARC-S-Theme-Remix---The-RA-CFW?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
 </p>
 <br>
 <br>
@@ -18,11 +18,18 @@
 What can you get with this?
 
 #
-Rework of a theme by Paul S. I made some aesthetic changes, changed the backgrounds. 
+Rework of a theme by Paul S. 
+
+I made some aesthetic changes, changed the backgrounds. 
 
 It has only two views: basic and detailed. 
 
 Detailed only has one image for the roms (image name=“md_image”), I recommend using mix2 because it is the most complete as it shows screenshot, box, media and marquee.
+
+mix2 example:
+(You can select mix2 directly from the Scrapper menu on your ARC withThe RA CFW)
+
+<img src="https://i.redd.it/a0c30yrwzbp51.jpg">
 
 Recommended options:
 
@@ -37,8 +44,10 @@ PS:
 It has just 1 bug that I dnt know how to fix. 
 As I changed the Menu Background, all dialog boxes also have the same background, looks kinda weird xD but is just that. :p
 
-11 variations
-Github Repository
+11 variations inside Theme options
+
+Maybe more to come...
+
 
 
 <br>
@@ -61,6 +70,7 @@ Coming soon
 > - Paul S for his ARC theme for ES
 > - Arcanthur for his Sega CD Mini Theme
 > - Tech Toy Tinker Company for his THE RA CFW
+> - Jetum for merging all variations into one main theme.
 
 
  <br>
