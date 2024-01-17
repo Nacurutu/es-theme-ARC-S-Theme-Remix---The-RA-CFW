@@ -1,0 +1,40 @@
+<theme>
+
+    <formatVersion>7</formatVersion>
+
+<feature supported="carousel">
+<view name="basic">
+<image name="background" extra="true">
+	<path>./../images/art/bg_gameview_segacd.png</path>
+	<origin>0 0</origin>
+	<pos>0 0</pos>
+	<size>1 1</size>
+</image>
+</view>
+
+<view name="system">
+<image name="background" extra="true">
+	<origin>0 0</origin>
+	<pos>0 0</pos>
+	<size>1 1</size>
+	<path>./../images/art/bg_system_segacd.png</path>
+</image>
+</view>
+</feature>
+
+<view name="detailed">
+<image name="background" extra="true">
+	<origin>0 0</origin>
+	<pos>0 0</pos>
+	<size>1 1</size>
+	<path>./../images/art/bg_gameview_segacd.png</path>
+</image>
+</view>
+
+<view name="menu">
+<menuBackground name="menubg">
+	<path>./../images/art/bg_settings_segacd.png</path>
+</menuBackground>
+</view>
+
+</theme>
