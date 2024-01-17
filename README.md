@@ -37,6 +37,7 @@ Recommended options:
 - Transition style: Instant 
 - Show clock: ON 
 - Battery Status: ON
+- On-Screen Help: ON
 
 I hope you like it
 
