@@ -1,6 +1,6 @@
 <!--
 theme name:     Arc RA CFW Theme (Unofficial)
-version:        1.0
+version:        1.2
 author:         Nacuberto
 date:           2024
 website:        
@@ -115,7 +115,7 @@ notes:          Inspired by the key art of Embark Studios' Arc Raiders
                 <selectedColor>18152F</selectedColor>
                 <primaryColor>e9e1d0</primaryColor>
                 <secondaryColor>888888</secondaryColor>
-                <fontPath>./_inc/fonts/olney_light.otf</fontPath>
+                <fontPath>./_inc/fonts/sega.otf</fontPath>
                 <pos>0.07 0.24</pos>
                 <size>0.40 0.60</size>
                 <fontSize>0.03</fontSize>
@@ -158,13 +158,11 @@ notes:          Inspired by the key art of Embark Studios' Arc Raiders
         <color>00000000</color>
         <maxLogoCount>1</maxLogoCount>
         <scrollSound>./_inc/sounds/wav/scroll.wav</scrollSound>
-        <selectSound>./_inc/sounds/wav/select.wav</selectSound>
-      </carousel>
 
 <!-- Logo Font -->
 
       <text name="logoText">
-            <fontPath>./_inc/fonts/olney_light.otf</fontPath>
+            <fontPath>./_inc/fonts/sega.otf</fontPath>
             <forceUppercase>true</forceUppercase>
             <lineSpacing>1</lineSpacing>
             <alignment>center</alignment>
@@ -254,7 +252,7 @@ notes:          Inspired by the key art of Embark Studios' Arc Raiders
                 <selectedColor>18152F</selectedColor>
                 <primaryColor>e9e1d0</primaryColor>
                 <secondaryColor>888888</secondaryColor>
-                <fontPath>./_inc/fonts/olney_light.otf</fontPath>
+                <fontPath>./_inc/fonts/sega.otf</fontPath>
                 <pos>0.07 0.24</pos>
                 <size>0.40 0.60</size>
                 <fontSize>0.03</fontSize>
@@ -276,7 +274,7 @@ notes:          Inspired by the key art of Embark Studios' Arc Raiders
             <text name="md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_players">
                 <color>C1AF87</color>
                 <forceUppercase>1</forceUppercase>
-                <fontPath>./_inc/fonts/olney_light.otf</fontPath>
+                <fontPath>./_inc/fonts/sega.otf</fontPath>
                 <fontSize>0.025</fontSize>
                 <size>0.4 0.01</size>
                 <alignment>right</alignment>
@@ -287,7 +285,7 @@ notes:          Inspired by the key art of Embark Studios' Arc Raiders
             <text name="md_developer, md_publisher, md_genre, md_players">
                 <color>e9e1d0</color>
                 <forceUppercase>0</forceUppercase>
-                <fontPath>./_inc/fonts/olney_light.otf</fontPath>
+                <fontPath>./_inc/fonts/sega.otf</fontPath>
                 <fontSize>0.025</fontSize>
                 <size>0.4 0.02</size>
                 <alignment>right</alignment>
@@ -296,7 +294,7 @@ notes:          Inspired by the key art of Embark Studios' Arc Raiders
             <datetime name="md_releasedate">
                 <color>e9e1d0</color>
                 <forceUppercase>0</forceUppercase>
-                <fontPath>./_inc/fonts/olney_light.otf</fontPath>
+                <fontPath>./_inc/fonts/sega.otf</fontPath>
                 <fontSize>0.025</fontSize>
                 <size>0.4 0.02</size>
                 <alignment>right</alignment>
@@ -380,14 +378,14 @@ notes:          Inspired by the key art of Embark Studios' Arc Raiders
 <view name="menu">
   
     <menuText name="menutitle">
-     <fontPath>./_inc/fonts/space-harrier-extended.ttf</fontPath>
+     <fontPath>./_inc/fonts/segaoutline.otf</fontPath>
       <fontSize>0.054</fontSize>
       <color>e9e1d0</color>
 	  <alignment>left</alignment>
     </menuText>
 	
     <menuText name="menufooter">
-      <fontPath>./_inc/fonts/space-harrier-extended.ttf</fontPath>
+      <fontPath>./_inc/fonts/sega.otf</fontPath>
       <fontSize>0.014</fontSize>
 	  <color>e9e1d0</color>
     </menuText>
@@ -397,7 +395,7 @@ notes:          Inspired by the key art of Embark Studios' Arc Raiders
       <selectedColor>000000</selectedColor>
       <primaryColor>e9e1d0</primaryColor>
       <secondaryColor>888888</secondaryColor>
-      <fontPath>./_inc/fonts/olney_light.otf</fontPath>
+      <fontPath>./_inc/fonts/sega.otf</fontPath>
       <pos>0.06 0.85</pos>
       <size>0.45 0.59</size>
       <fontSize>0.028</fontSize>
@@ -408,7 +406,7 @@ notes:          Inspired by the key art of Embark Studios' Arc Raiders
     </menuText>
 	
     <menuTextSmall name="menutextsmall">
-     <fontPath>./_inc/fonts/olney_light.otf</fontPath>
+     <fontPath>./_inc/fonts/sega.otf</fontPath>
       <fontSize>0.02</fontSize>
     </menuTextSmall>
 
