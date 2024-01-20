@@ -158,6 +158,7 @@ notes:          Inspired by the key art of Embark Studios' Arc Raiders
         <color>00000000</color>
         <maxLogoCount>1</maxLogoCount>
         <scrollSound>./_inc/sounds/wav/scroll.wav</scrollSound>
+		</carousel>
 
 <!-- Logo Font -->
 
