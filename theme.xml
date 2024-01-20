@@ -14,17 +14,15 @@ date:           2022
 website:        
 license:        Creative commons CC-BY-NC-SA
 notes:          Inspired by the key art of Embark Studios' Arc Raiders
-
-also, thanks to Arcanthur for his Sega CD Mini Theme
 -->
 
-
+<theme>
 <!---
 
 ========================== Variables ==========================
 
 -->
-<theme defaultView="detailed">
+
     <formatVersion>7</formatVersion>
 	
   	<variables>
@@ -44,20 +42,20 @@ also, thanks to Arcanthur for his Sega CD Mini Theme
 		<include name="vortex" displayName="${Vortex}">./_inc/xml/vortex.xml</include>
     </subset>
 
- <!--Carousel Settings-->
- 
- <feature supported="carousel">
+<!--Carousel Settings-->
+
+<feature supported="carousel">
 
 
- <!---
+<!---
 
- ========================== Screen Section ==========================
+========================== Screen Section ==========================
 
- -->
+-->
 
     <view name="screen">
 
- <!-- Battery-->
+<!-- Battery-->
 
     <batteryIndicator name="batteryIndicator">
         <pos>0.825 0.03</pos>
@@ -65,7 +63,7 @@ also, thanks to Arcanthur for his Sega CD Mini Theme
 		<color>e9e1d0</color>
     </batteryIndicator>
 
- <!-- Clock -->
+<!-- Clock -->
 
     <text name="clock">
         <origin>0 0</origin>
@@ -80,15 +78,15 @@ also, thanks to Arcanthur for his Sega CD Mini Theme
 
     </view>
 
- <!---
+<!---
 
- ========================== Basic View Section ==========================
+========================== Basic View Section ==========================
 
- -->
+-->
 
- <view name="basic">
+<view name="basic">
 
- <!-- Logo Paths -->
+<!-- Logo Paths -->
 
         <image name="logo">
             <path>./_inc/systems/logos/${system.theme}.svg</path>
@@ -102,7 +100,7 @@ also, thanks to Arcanthur for his Sega CD Mini Theme
             <path>./_inc/systems/logos/system/${system.theme}.svg</path>
         </image>
 
- <!-- System Logos -->
+<!-- System Logos -->
 
             <image name="logo">
                 <origin>0.5 0.5</origin>
@@ -110,23 +108,23 @@ also, thanks to Arcanthur for his Sega CD Mini Theme
                 <maxSize>0.5 0.24</maxSize>
             </image>
 
- <!-- Game List -->
+<!-- Game List -->
 
              <textlist name="gamelist">
                 <selectorColor>F9C207</selectorColor>
                 <selectedColor>18152F</selectedColor>
                 <primaryColor>e9e1d0</primaryColor>
                 <secondaryColor>888888</secondaryColor>
-                <fontPath>./_inc/fonts/sega.otf</fontPath>
-                <pos>0.07 0.24</pos>
-                <size>0.40 0.60</size>
-                <fontSize>0.03</fontSize>
+                <fontPath>./_inc/fonts/space-harrier-extended.ttf</fontPath>
+                <pos>0.065 0.2525</pos>
+                <size>0.40 0.56</size>
+                <fontSize>0.0225</fontSize>
                 <lineSpacing>1.75</lineSpacing>
                 <horizontalMargin>0.01</horizontalMargin>
                 <scrollSound>./_inc/sounds/wav/scroll.wav</scrollSound>
             </textlist>
 			
- <!--Help Bar Text-->
+<!--Help Bar Text-->
  
 		<helpsystem name="help">
 			<origin>0 0</origin>
@@ -140,15 +138,15 @@ also, thanks to Arcanthur for his Sega CD Mini Theme
 		
     </helpsystem>
 	
- </view>
+</view>
 
- <!---
+<!---
 
- ========================== System View Section ==========================
+========================== System View Section ==========================
 
- -->
+-->
 
- <!--Carousel Settings-->
+<!--Carousel Settings-->
 
    <view name="system">
       <carousel name="systemcarousel">
@@ -160,8 +158,9 @@ also, thanks to Arcanthur for his Sega CD Mini Theme
         <color>00000000</color>
         <maxLogoCount>1</maxLogoCount>
         <scrollSound>./_inc/sounds/wav/scroll.wav</scrollSound>
+		</carousel>
 
- <!-- Logo Font -->
+<!-- Logo Font -->
 
       <text name="logoText">
             <fontPath>./_inc/fonts/sega.otf</fontPath>
@@ -172,7 +171,7 @@ also, thanks to Arcanthur for his Sega CD Mini Theme
             <color>E9E1D0</color>
         </text>
 
- <!-- Logo Paths -->
+<!-- Logo Paths -->
 
         <image name="logo">
             <path>./_inc/systems/logos/${system.theme}.svg</path>
@@ -186,7 +185,7 @@ also, thanks to Arcanthur for his Sega CD Mini Theme
             <path>./_inc/systems/logos/system/${system.theme}.svg</path>
         </image>
 
- <!--Number of Games Settings-->
+<!--Number of Games Settings-->
 
     <text name="systemInfo">
 	    <origin>0 0</origin>
@@ -200,7 +199,7 @@ also, thanks to Arcanthur for his Sega CD Mini Theme
         <verticalAlignment>center</verticalAlignment>
     </text>
 
- <!--Help Bar Text-->
+<!--Help Bar Text-->
 
 	 <helpsystem name="help">
         <origin>0 0</origin>
@@ -215,17 +214,17 @@ also, thanks to Arcanthur for his Sega CD Mini Theme
     </helpsystem>
    
    </view>
- </feature>
+</feature>
 
- <!---
+<!---
 
- ========================== Detailed View Section ==========================
+========================== Detailed View Section ==========================
 
- -->
+-->
 
     <view name="detailed">
     
- <!-- Logo Paths -->
+<!-- Logo Paths -->
 
         <image name="logo">
             <path>./_inc/systems/logos/${system.theme}.svg</path>
@@ -239,7 +238,7 @@ also, thanks to Arcanthur for his Sega CD Mini Theme
             <path>./_inc/systems/logos/system/${system.theme}.svg</path>
         </image>
 
- <!-- System Logos -->
+<!-- System Logos -->
 
             <image name="logo">
                 <origin>0.5 0.5</origin>
@@ -247,23 +246,23 @@ also, thanks to Arcanthur for his Sega CD Mini Theme
                 <maxSize>0.33 0.19</maxSize>
             </image>
 
- <!-- Game List -->
+<!-- Game List -->
 
             <textlist name="gamelist">
                 <selectorColor>F9C207</selectorColor>
                 <selectedColor>18152F</selectedColor>
                 <primaryColor>e9e1d0</primaryColor>
                 <secondaryColor>888888</secondaryColor>
-                <fontPath>./_inc/fonts/sega.otf</fontPath>
-                <pos>0.07 0.24</pos>
-                <size>0.40 0.60</size>
-                <fontSize>0.03</fontSize>
+                <fontPath>./_inc/fonts/space-harrier-extended.ttf</fontPath>
+                <pos>0.065 0.2525</pos>
+                <size>0.40 0.56</size>
+                <fontSize>0.0225</fontSize>
                 <lineSpacing>1.75</lineSpacing>
                 <horizontalMargin>0.01</horizontalMargin>
                 <scrollSound>./_inc/sounds/wav/scroll.wav</scrollSound>
             </textlist>
 
- <!-- Game Artwork -->
+<!-- Game Artwork -->
 
             <image name="md_image">
                 <origin>0.5 0.5</origin>
@@ -271,7 +270,7 @@ also, thanks to Arcanthur for his Sega CD Mini Theme
                 <maxSize>0.4 0.5</maxSize>
             </image>
 
- <!-- Label Text Settings -->
+<!-- Label Text Settings -->
 
             <text name="md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_players">
                 <color>C1AF87</color>
@@ -282,7 +281,7 @@ also, thanks to Arcanthur for his Sega CD Mini Theme
                 <alignment>right</alignment>
             </text>
 
- <!-- Metadata Text Settings -->
+<!-- Metadata Text Settings -->
 
             <text name="md_developer, md_publisher, md_genre, md_players">
                 <color>e9e1d0</color>
@@ -302,11 +301,11 @@ also, thanks to Arcanthur for his Sega CD Mini Theme
                 <alignment>right</alignment>
             </datetime>
 
- <!--
+<!--
                 <text name="md_lbl_rating">
                     <pos>0.50 0.86</pos>
                 </text>
- -->
+-->
                 <rating name="md_rating">
                     <pos>0.73 0.84</pos>
                     <size>0.25 0.035</size>
@@ -369,11 +368,15 @@ also, thanks to Arcanthur for his Sega CD Mini Theme
 	
     </view>
 
- 
- <!---
- ========================== Menu Section ========================== -->
+<!---
 
- <view name="menu">
+========================== Sounds Section ========================== -->
+
+ 
+<!---
+========================== Menu Section ========================== -->
+
+<view name="menu">
   
     <menuText name="menutitle">
      <fontPath>./_inc/fonts/segaoutline.otf</fontPath>
@@ -410,13 +413,39 @@ also, thanks to Arcanthur for his Sega CD Mini Theme
 
  </view>
 
- <!---
- ========================== All Areas Section ==========================
- -->
+<!---
+========================== All Areas Section ==========================
+-->
 
     
+        <feature supported="navigationsounds">
+      <view name="system, basic, detailed">
+         <sound name="systembrowse">
+            <path>./_inc/sounds/wav/systembrowse.wav</path>
+         </sound>
+         <sound name="quicksysselect">
+            <path>./_inc/sounds/wav/quicksysselect.wav</path>
+         </sound>
+         <sound name="select">
+            <path>./_inc/sounds/wav/select.wav</path>
+         </sound>
+         <sound name="back">
+            <path>./_inc/sounds/wav/back.wav</path>
+         </sound>
+         <sound name="scroll">
+            <path>./_inc/sounds/wav/scroll.wav</path>
+         </sound>
+         <sound name="favorite">
+            <path>./_inc/sounds/wav/favorite.wav</path>
+         </sound>
+         <sound name="launch">
+            <path>./_inc/sounds/wav/launch.wav</path>
+         </sound>
+      </view>
+   </feature>
+    
 	
-    <!---
+	<!---
 
 ========================== Video View Section ==========================
 
@@ -424,3 +453,4 @@ WIP
 
 -->
 
+</theme>
