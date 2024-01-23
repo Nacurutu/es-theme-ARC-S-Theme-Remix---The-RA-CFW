@@ -30,16 +30,22 @@ notes:          Inspired by the key art of Embark Studios' Arc Raiders
 	</variables>
 	<subset name="background" displayName="${backgroundSubsetname}">
 	    <include name="dark" displayName="${Dark}">./_inc/xml/dark.xml</include>
+        <include name="light" displayName="${Light}">./_inc/xml/light.xml</include>
 	    <include name="blue" displayName="${Blue}">./_inc/xml/blue.xml</include>
+        <include name="purple" displayName="${Purple}">./_inc/xml/purple.xml</include>
 	    <include name="marine" displayName="${Marine}">./_inc/xml/marine.xml</include>
-	    <include name="purple" displayName="${Purple}">./_inc/xml/purple.xml</include>
+        <include name="sonic" displayName="${Sonic}">./_inc/xml/sonic.xml</include>
+		<include name="vortex" displayName="${Vortex}">./_inc/xml/vortex.xml</include>
+	    <include name="sg1000" displayName="${SG1000}">./_inc/xml/sg1000.xml</include>
 		<include name="sms" displayName="${SMS}">./_inc/xml/sms.xml</include>
-		<include name="sg1000" displayName="${SG1000}">./_inc/xml/sg1000.xml</include>
+        <include name="gg" displayName="${GG}">./_inc/xml/gg.xml</include>			
 		<include name="genesis" displayName="${Genesis}">./_inc/xml/genesis.xml</include>
+        <include name="mdjap" displayName="${MDJap}">./_inc/xml/mdjap.xml</include>
+        <include name="mdeur" displayName="${MDEur}">./_inc/xml/mdeur.xml</include>
 		<include name="32x" displayName="${32x}">./_inc/xml/32x.xml</include>
 		<include name="segacd" displayName="${SegaCD}">./_inc/xml/segacd.xml</include>
-		<include name="sonic" displayName="${Sonic}">./_inc/xml/sonic.xml</include>
-		<include name="vortex" displayName="${Vortex}">./_inc/xml/vortex.xml</include>
+        <include name="megacd" displayName="${MegaCD}">./_inc/xml/megacd.xml</include>
+		
     </subset>
 
 <!--Carousel Settings-->
@@ -61,6 +67,13 @@ notes:          Inspired by the key art of Embark Studios' Arc Raiders
         <pos>0.825 0.03</pos>
         <size>0.065 0.065</size>
 		<color>e9e1d0</color>
+        <full>./_inc/images/sys_indic/batt_full.svg</full>
+        <at75>./_inc/images/sys_indic/batt_75.svg</at75>
+        <at50>./_inc/images/sys_indic/batt_50.svg</at50>
+        <at25>./_inc/images/sys_indic/batt_25.svg</at25>
+        <empty>./_inc/images/sys_indic/batt_0.svg</empty>
+        <incharge>./_inc/images/sys_indic/batt_charging.svg</incharge>
+        <networkIcon>./_inc/images/sys_indic/wifi.svg</networkIcon>
     </batteryIndicator>
 
 <!-- Clock -->
@@ -104,8 +117,8 @@ notes:          Inspired by the key art of Embark Studios' Arc Raiders
 
             <image name="logo">
                 <origin>0.5 0.5</origin>
-                <pos>0.73 0.5325</pos>
-                <maxSize>0.5 0.24</maxSize>
+                <pos>0.74 0.5</pos>
+                <maxSize>0.45 0.24</maxSize>
             </image>
 
 <!-- Game List -->
@@ -116,7 +129,7 @@ notes:          Inspired by the key art of Embark Studios' Arc Raiders
                 <primaryColor>e9e1d0</primaryColor>
                 <secondaryColor>888888</secondaryColor>
                 <fontPath>./_inc/fonts/space-harrier-extended.ttf</fontPath>
-                <pos>0.065 0.2525</pos>
+                <pos>0.09 0.20</pos>
                 <size>0.40 0.56</size>
                 <fontSize>0.0225</fontSize>
                 <lineSpacing>1.75</lineSpacing>
@@ -124,19 +137,18 @@ notes:          Inspired by the key art of Embark Studios' Arc Raiders
                 <scrollSound>./_inc/sounds/wav/scroll.wav</scrollSound>
             </textlist>
 			
-<!--Help Bar Text-->
- 
-		<helpsystem name="help">
+
+
+    
+    <image name="arrows" extra="true">
+			<pos>0.03 0.23</pos>
 			<origin>0 0</origin>
-			<pos>0.11 0.94</pos>
-			<textColor>e9e1d0</textColor>
-			<iconColor>F9C207</iconColor>
-			<fontPath>./_inc/fonts/space-harrier-extended.ttf</fontPath>
-			<fontSize>0.025</fontSize>
+			<maxSize>0.5 0.5</maxSize>
+			<path>./_inc/images/art/gv_art/art/arrows.png</path>
 			<alignment>center</alignment>
 			<verticalAlignment>center</verticalAlignment>
-		
-    </helpsystem>
+			<zIndex>20</zIndex>
+		</image>
 	
 </view>
 
@@ -212,6 +224,9 @@ notes:          Inspired by the key art of Embark Studios' Arc Raiders
         <verticalAlignment>center</verticalAlignment>
 		
     </helpsystem>
+
+    
+
    
    </view>
 </feature>
@@ -222,7 +237,7 @@ notes:          Inspired by the key art of Embark Studios' Arc Raiders
 
 -->
 
-    <view name="detailed">
+    <view name="detailed, video">
     
 <!-- Logo Paths -->
 
@@ -242,8 +257,9 @@ notes:          Inspired by the key art of Embark Studios' Arc Raiders
 
             <image name="logo">
                 <origin>0.5 0.5</origin>
-                <pos>0.235 0.115</pos>
+                <pos>0.255 0.115</pos>
                 <maxSize>0.33 0.19</maxSize>
+                <alignment>center</alignment>
             </image>
 
 <!-- Game List -->
@@ -254,7 +270,7 @@ notes:          Inspired by the key art of Embark Studios' Arc Raiders
                 <primaryColor>e9e1d0</primaryColor>
                 <secondaryColor>888888</secondaryColor>
                 <fontPath>./_inc/fonts/space-harrier-extended.ttf</fontPath>
-                <pos>0.065 0.2525</pos>
+                <pos>0.09 0.20</pos>
                 <size>0.40 0.56</size>
                 <fontSize>0.0225</fontSize>
                 <lineSpacing>1.75</lineSpacing>
@@ -307,8 +323,8 @@ notes:          Inspired by the key art of Embark Studios' Arc Raiders
                 </text>
 -->
                 <rating name="md_rating">
-                    <pos>0.73 0.84</pos>
-                    <size>0.25 0.035</size>
+                    <pos>0.21 0.77</pos>
+                    <size>0.35 0.045</size>
                     <filledPath>./_inc/images/star_filled__spacing.svg</filledPath>
                     <unfilledPath>./_inc/images/star_hollow_2_spacing.svg</unfilledPath>
                     <color>ffffff</color>
@@ -352,19 +368,6 @@ notes:          Inspired by the key art of Embark Studios' Arc Raiders
                     <pos>0.54 0.79</pos>
                 </datetime>
 
- <!--Help Bar Text-->
- 
-		<helpsystem name="help">
-			<origin>0 0</origin>
-			<pos>0.11 0.94</pos>
-			<textColor>e9e1d0</textColor>
-			<iconColor>F9C207</iconColor>
-			<fontPath>./_inc/fonts/space-harrier-extended.ttf</fontPath>
-			<fontSize>0.025</fontSize>
-			<alignment>center</alignment>
-			<verticalAlignment>center</verticalAlignment>
-		
-    </helpsystem>
 	
     </view>
 
@@ -447,10 +450,78 @@ notes:          Inspired by the key art of Embark Studios' Arc Raiders
 	
 	<!---
 
+
+
 ========================== Video View Section ==========================
 
-WIP
-
 -->
+
+    <view name="video">
+
+    <image name="md_marquee">
+        <pos>0.76 0.12</pos>
+        <origin>0.5 0.5</origin>
+        <maxSize>0.250 0.150</maxSize>
+         <opacity>0</opacity>
+        <zIndex>22</zIndex>
+    </image>
+    
+     <video name="md_video">   
+        <origin>0.5 0.5</origin>
+        <pos>0.76 0.36</pos>
+        <maxSize>0.4 0.5</maxSize>
+        <delay>1.5</delay>      
+        <showSnapshotNoVideo>true</showSnapshotNoVideo>
+        <showSnapshotDelay>true</showSnapshotDelay>
+        <zIndex>20</zIndex>
+        <cornerRadius>0.025</cornerRadius>
+        <loops>0</loops>
+ 
+      </video>         
+
+
+         <image name="md_image">
+            <pos>0 0</pos>
+            <origin>0.5 0.5</origin>
+            <maxSize>0 0</maxSize>
+        </image>         
+         
+      
+   
+
+    </view>
+
+
+<!---
+========================== Grid View Section ==========================
+-->
+
+
+   <view name="grid">	
+
+
+    <image name="console" extra="true">
+
+    <path>./_inc/systems/logos/${system.theme}.svg</path>
+            <path>./_inc/systems/logos/arcade/${system.theme}.svg</path>
+            <path>./_inc/systems/logos/atari/${system.theme}.svg</path>
+            <path>./_inc/systems/logos/auto/${system.theme}.svg</path>
+            <path>./_inc/systems/logos/genre/${system.theme}.svg</path>
+            <path>./_inc/systems/logos/nintendo/${system.theme}.svg</path>
+            <path>./_inc/systems/logos/sega/${system.theme}.svg</path>
+            <path>./_inc/systems/logos/sony/${system.theme}.svg</path>
+            <path>./_inc/systems/logos/system/${system.theme}.svg</path>
+		</image>
+
+        <image name="console" extra="true">
+            <pos>0.5 0.064</pos>
+			<origin>0.5 0.3</origin>
+			<maxSize>0.36 0.14</maxSize>
+			<zIndex>150</zIndex>
+        </image>
+		
+		
+  
+	</view>
 
 </theme>

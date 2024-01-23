@@ -1,0 +1,188 @@
+<theme>
+
+    <formatVersion>4</formatVersion>
+
+<feature supported="carousel">
+<view name="basic">
+<image name="background" extra="true">
+	<path>./../images/art/light/bg.png</path>
+	<origin>0 0</origin>
+	<pos>0 0</pos>
+	<size>1 1</size>
+</image>
+</view>
+
+<view name="system, detailed, video, grid, basic">
+<image name="background" extra="true">
+	<origin>0 0</origin>
+	<pos>0 0</pos>
+	<size>1 1</size>
+	<path>./../images/art/light/bg.png</path>
+</image>
+</view>
+</feature>
+
+<view name="grid, system, detailed, video, basic">
+<image name="opacity" extra="true">
+	<origin>0 0</origin>
+	<pos>0 0</pos>
+	<size>1 1</size>
+	<path>./_inc/images/opacity.png</path>
+	<zIndex>11</zIndex>
+</image>
+
+</view>
+
+<view name="system">
+<image name="ARC" extra="true">
+	<origin>0 0</origin>
+	<pos>0 0</pos>
+	<size>1 1</size>
+	<path>./_inc/images/ARC_logo_corner.png</path>
+	<zIndex>12</zIndex>
+</image>
+
+</view>
+
+
+<view name="menu">
+<menuBackground name="menubg">
+<path>./../images/art/light/bg.png</path>
+</menuBackground>
+
+</view>
+
+<view name="basic, detailed, video, grid">
+<image name="arrows" extra="true">
+			<pos>0.03 0.23</pos>
+			<origin>0 0</origin>
+			<maxSize>0.5 0.5</maxSize>
+			<path>./_inc/images/art/light/arrows.png</path>
+			<alignment>center</alignment>
+			<verticalAlignment>center</verticalAlignment>
+			<zIndex>20</zIndex>
+		</image>
+
+		       <helpsystem name="help">
+			<origin>0 0</origin>
+			<pos>0.03 0.93</pos>
+			<textColor>e9e1d0</textColor>
+			<iconColor>F9C207</iconColor>
+			<fontPath>./_inc/fonts/space-harrier-extended.ttf</fontPath>
+			<fontSize>0.02</fontSize>
+			<alignment>center</alignment>
+			<verticalAlignment>center</verticalAlignment>
+		
+        </helpsystem> 
+</view>
+
+<!---
+========================== Grid View Section ==========================
+-->
+
+
+   <view name="grid">	
+
+
+    <image name="console" extra="true">
+
+    <path>./_inc/systems/logos/${system.theme}.svg</path>
+            <path>./_inc/systems/logos/arcade/${system.theme}.svg</path>
+            <path>./_inc/systems/logos/atari/${system.theme}.svg</path>
+            <path>./_inc/systems/logos/auto/${system.theme}.svg</path>
+            <path>./_inc/systems/logos/genre/${system.theme}.svg</path>
+            <path>./_inc/systems/logos/nintendo/${system.theme}.svg</path>
+            <path>./_inc/systems/logos/sega/${system.theme}.svg</path>
+            <path>./_inc/systems/logos/sony/${system.theme}.svg</path>
+            <path>./_inc/systems/logos/system/${system.theme}.svg</path>
+		</image>
+
+        <image name="console" extra="true">
+            <pos>0.5 0.064</pos>
+			<origin>0.5 0.3</origin>
+			<maxSize>0.36 0.14</maxSize>
+			<zIndex>150</zIndex>
+        </image>
+		
+		
+        <helpsystem name="help">
+			<origin>0 0</origin>
+			<pos>0.03 0.93</pos>
+			<textColor>e9e1d0</textColor>
+			<iconColor>F9C207</iconColor>
+			<fontPath>./_inc/fonts/space-harrier-extended.ttf</fontPath>
+			<fontSize>0.02</fontSize>
+			<alignment>center</alignment>
+			<verticalAlignment>center</verticalAlignment>
+		
+        </helpsystem> 
+
+               
+		<image name="settingsicon" extra="true">
+			<pos>0.14 0.11</pos>
+			<origin>0.5 0.5</origin>
+			<maxSize>0.95 0.105</maxSize>
+			<path>./_inc/images/art/light/settingsicon.png</path>
+			<zIndex>17</zIndex>
+		</image>
+
+		<image name="sorticon" extra="true">
+			<pos>0.86 0.11</pos>
+			<origin>0.5 0.5</origin>
+			<maxSize>0.95 0.105</maxSize>
+			<path>./_inc/images/art/light/sorticon.png</path>
+			<zIndex>16</zIndex>
+		</image>
+        
+		   <image name="titlebar" extra="true">
+		   <alignment>center</alignment>
+			<verticalAlignment>center</verticalAlignment>
+			<pos>0 0.78</pos>
+			<origin>0 0</origin>
+			<maxSize>1.0 0.150</maxSize>
+			<path>./_inc/images/art/light/titlebar.png</path>
+			<zIndex>15</zIndex>
+		</image>
+		
+	
+		<text name="md_name">
+			<pos>0.5 0.84</pos>
+			<size>0.68 0.0592592592592593</size>
+			<origin>0.5 0.5</origin>
+			<fontPath>./_inc/fonts/space-harrier-extended.ttf</fontPath>
+			<fontSize>0.036</fontSize>
+			<color>202020</color>
+			<forceUppercase>true</forceUppercase>	
+			<lineSpacing>1.0</lineSpacing>
+			<alignment>center</alignment>
+			<verticalAlignment>center</verticalAlignment>
+			<zIndex>16</zIndex>
+		</text>	
+		
+		<imagegrid name="gamegrid" extra="true">
+			<pos>0.107 0.191</pos>
+			<size>0.9 0.60</size>
+			<margin>0.016 0.020</margin>
+			<scrollDirection>vertical</scrollDirection>
+		<animate>false</animate>
+		</imagegrid>
+
+		<gridtile name="default" extra="true">
+			<size>0.118 0.28</size>
+			<padding>0.005 0.005</padding>
+			<backgroundCornerSize>0.05 0.05</backgroundCornerSize>
+			<backgroundColor>e9e1d0</backgroundColor>
+			<imageColor>e9e1d0</imageColor>
+		</gridtile>
+
+		<gridtile name="selected">
+			<size>0.118 0.28</size>
+			<backgroundColor>F9C207</backgroundColor>
+			<zIndex>140</zIndex>
+		</gridtile>
+
+ 
+
+	</view>
+
+</theme>
