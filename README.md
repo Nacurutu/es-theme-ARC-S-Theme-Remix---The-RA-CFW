@@ -22,7 +22,7 @@ Rework of a theme by Paul S.
 
 I made some aesthetic changes, changed the backgrounds. 
 
-It has only two views: basic and detailed. 
+It has 4 views: basic, detailed, video and Grid 
 
 Detailed only has one image for the roms (image name=“md_image”), I recommend using mix2 because it is the most complete as it shows screenshot, box, media and marquee.
 
@@ -40,15 +40,6 @@ Recommended options:
 - On-Screen Help: ON
 
 I hope you like it
-
-PS: 
-It has just 1 bug that I dnt know how to fix. 
-As I changed the Menu Background, all dialog boxes also have the same background, looks kinda weird xD but is just that. :p
-
-11 variations inside Theme options
-
-Maybe more to come...
-
 
 
 <br>
